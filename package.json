@@ -1,0 +1,26 @@
+{
+  "name": "somalicare-api",
+  "version": "0.1.0",
+  "description": "Example REST API that can be used to teach REST API design in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server.js --presets env",
+    "test": "echo \"Error: this hasn't been set up\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/Mowlid-Moallim-CIC-UK/somalicare-api.git"
+  },
+  "author": "Mowlid Moallim",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "react-native-super-grid": "^2.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
